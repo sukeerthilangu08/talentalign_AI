@@ -1,0 +1,1 @@
+This is a project which takes the user's resume as an input and parses it using a AI 
