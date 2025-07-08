@@ -1,0 +1,6 @@
+The requorements for this project are :
+1)Python
+2)Virtual environment
+3)Quadrant db
+4)Streamline
+5)Nlp libraries
