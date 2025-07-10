@@ -8,12 +8,17 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+col1, col2, col3, col4 = st.columns(4)
 #creating a resume button and 
-resume_state = st.button("Resume")
-jd_state = st.button("Job description")
-st.write(resume_state)
-st.write(jd_state)
- 
+with col1 :
+    resume_state = st.button("Resume")
+    st.write(resume_state)
+with col4 :
+    jd_state = st.button("Job description")
+    st.write(jd_state)
 
+
+
+
+ 
 
